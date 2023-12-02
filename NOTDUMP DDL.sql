@@ -1,5 +1,5 @@
-CREATE DATABASE CRM2;
-USE CRM2;
+CREATE DATABASE GamersRUs;
+USE GamersRUs;
 
 -- DDL
 -- Locations Table
