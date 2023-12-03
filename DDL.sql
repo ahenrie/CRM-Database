@@ -135,6 +135,7 @@ CREATE TABLE Opportunity (
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
 );
 
+/*
 -- Lead Table
 CREATE TABLE Leads (
     LeadID INT AUTO_INCREMENT PRIMARY KEY,
@@ -145,7 +146,7 @@ CREATE TABLE Leads (
     Status VARCHAR(50),
     Source VARCHAR(50)
 );
-
+*/
 -- Communication Table
 CREATE TABLE Communication (
     CommunicationID INT AUTO_INCREMENT PRIMARY KEY,
